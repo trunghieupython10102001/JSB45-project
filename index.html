@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JSB45 Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -13,37 +16,49 @@
     <header>
       <!-- NAVBAR -->
       <div id="nav">
-        <div id="navpage">
-          <ul>
-            <a href=""><li class="navbar">[logo]</li></a>
-            <a href=""><li class="navbar">HOME</li></a>
-            <a href=""><li class="navbar">ABOUT</li></a>
-            <a href=""><li class="navbar">MENU</li></a>
-            <a href=""><li class="navbar">CONTACT</li></a>
-          </ul>
-        </div>
-        <a href="">
-          <div id="search">
-            <p id="search-icon">[search]</p>
-            <!-- <img id="search_icon" src="./assets/img/search icon.png" alt="search icon by Catalin Fertu from https://www.flaticon.com/free-icons/search"> -->
-          </div>
-        </a>
+        <ul>
+          <a href=""><li class="navbar">[logo]</li></a>
+          <a href=""><li class="navbar">HOME</li></a>
+          <a href=""><li class="navbar">ABOUT</li></a>
+          <a href=""><li class="navbar">MENU</li></a>
+          <a href=""><li class="navbar">CONTACT</li></a>
+        </ul>
       </div>
     </header>
 
     <!-- MAIN CONTENT -->
     <main>
-      <!-- IMAGE SLIDER -->
-      <div class="slider">
-        <img class="slider-img" src="./assets/img/pho.jpg" alt="bowl of pho">
+      <!-- BANNER -->
+      <div class="banner">
+        <img class="banner-img" src="./assets/img/fried rice.jpg" alt="bowl of fried rice">
         <!-- SLIDER TEXT -->
-        <div class="slider-text">
+        <div class="banner-text">
           <p>
             FRESH FILLED </br> WITH TRADITION
           </p>
         </div>
       </div>
       
+      <!-- SECTION 1 -->
+      <div class="section">
+        <h3 class="section-title">
+          We pride in Vietnamese Tradition
+        </h3>
+          <div class="section1-position">
+            <img class="section1-img" src="./assets/img/pho.jpg" alt="bowl of pho">
+            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet placerat mauris, lobortis accumsan arcu. Cras blandit accumsan eleifend. Nulla facilisi. Fusce finibus lorem quis risus tempus, vel faucibus velit faucibus. Fusce tristique arcu ac neque eleifend accumsan. Donec luctus feugiat aliquam. Vivamus facilisis tortor non aliquam interdum. Pellentesque eu velit ipsum. Sed imperdiet vitae sapien ac pulvinar. Donec a convallis nulla, sodales sagittis magna. In finibus diam odio, in eleifend est rutrum varius. Nullam semper lacinia nulla ac hendrerit. Quisque mollis mollis consectetur. Pellentesque id turpis dapibus, rhoncus arcu viverra, vestibulum sapien.</p>
+          </div>
+      </div>
+
+      <!-- SECTION 2 -->
+      <div class="section">
+        <h3 class="section-title">CUSTOMER'S FAVORITE</h3>
+        <div class="section2-flex">
+          <div class="section2-column"></div>
+          <div class="section2-column"></div>
+          <div class="section2-column"></div>
+        </div>
+      </div>
     </main>
   </body>
   <script src="./index.js"></script>
