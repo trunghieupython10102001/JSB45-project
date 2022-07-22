@@ -117,10 +117,6 @@ li.navbar.logo {
     font-size: 24px;
 }
 
-.section1-position {
-    position: relative;
-}
-
 /* SECTION 2 */
 
 .section2 {
@@ -175,7 +171,7 @@ li.navbar.logo {
     text-align: justify;
     word-wrap: break-word; 
     word-break: break-word;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
 }
 
 /* FOOTER */
