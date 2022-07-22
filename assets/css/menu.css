@@ -85,8 +85,63 @@ li.navbar.logo {
     font-weight: 300;
 }
 
+/* BANNER */
 
+.banner {
+    position: relative;
+    margin-top: 60px;
+}
 
+.banner-img {
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: relative;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.668);
+}
+
+.banner-text p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+/* MENU */
+.menu {
+    position: relative;
+    margin: 80px 10%;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.food-class {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.food-name {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.food-desc {
+    font-size: 20px;
+}
 
 /* FOOTER */
 footer {
